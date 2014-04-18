@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="VHViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Marcella2.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="M8E-5s-7dX">
+                                <rect key="frame" x="-92" y="-67" width="860" height="1014"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVg-L9-Kik">
+                                <rect key="frame" x="262" y="974" width="245" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8nc-Bz-riG"/>
+                                    <constraint firstAttribute="width" constant="245" id="mpt-cV-hag"/>
+                                </constraints>
+                                <state key="normal" title="Start Broadcast">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="updateBroadCastStatus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C52-ih-Bht"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="M8E-5s-7dX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-92" id="71V-TW-le2"/>
+                            <constraint firstItem="yVg-L9-Kik" firstAttribute="top" secondItem="M8E-5s-7dX" secondAttribute="bottom" constant="27" id="M2p-QP-ZqR"/>
+                            <constraint firstAttribute="bottom" secondItem="yVg-L9-Kik" secondAttribute="bottom" constant="20" symbolic="YES" id="cfH-Wv-mQG"/>
+                            <constraint firstAttribute="trailing" secondItem="M8E-5s-7dX" secondAttribute="trailing" id="ck7-hg-ROp"/>
+                            <constraint firstItem="yVg-L9-Kik" firstAttribute="centerX" secondItem="M8E-5s-7dX" secondAttribute="centerX" constant="46.5" id="fsB-RR-PA0"/>
+                            <constraint firstItem="M8E-5s-7dX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-67" id="jKb-OU-6Dd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="broadcastButton" destination="yVg-L9-Kik" id="KYh-bU-b26"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Marcella2.JPG" width="1600" height="1200"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

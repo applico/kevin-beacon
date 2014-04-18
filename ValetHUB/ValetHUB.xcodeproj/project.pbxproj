@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F481EE318FC77A900F38DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F481EE218FC77A900F38DCE /* Foundation.framework */; };
+		5F481EE518FC77A900F38DCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F481EE418FC77A900F38DCE /* CoreGraphics.framework */; };
+		5F481EE718FC77A900F38DCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F481EE618FC77A900F38DCE /* UIKit.framework */; };
+		5F481EED18FC77A900F38DCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F481EEB18FC77A900F38DCE /* InfoPlist.strings */; };
+		5F481EEF18FC77A900F38DCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F481EEE18FC77A900F38DCE /* main.m */; };
+		5F481EF318FC77A900F38DCE /* VHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F481EF218FC77A900F38DCE /* VHAppDelegate.m */; };
+		5F481EF618FC77A900F38DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F481EF418FC77A900F38DCE /* Main.storyboard */; };
+		5F481EF918FC77A900F38DCE /* VHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F481EF818FC77A900F38DCE /* VHViewController.m */; };
+		5F481EFB18FC77AA00F38DCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F481EFA18FC77AA00F38DCE /* Images.xcassets */; };
+		5F481F0218FC77AA00F38DCE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F481F0118FC77AA00F38DCE /* XCTest.framework */; };
+		5F481F0318FC77AA00F38DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F481EE218FC77A900F38DCE /* Foundation.framework */; };
+		5F481F0418FC77AA00F38DCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F481EE618FC77A900F38DCE /* UIKit.framework */; };
+		5F481F0C18FC77AA00F38DCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F481F0A18FC77AA00F38DCE /* InfoPlist.strings */; };
+		5F481F0E18FC77AA00F38DCE /* ValetHUBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F481F0D18FC77AA00F38DCE /* ValetHUBTests.m */; };
+		5F481F1818FC787600F38DCE /* Marcella2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5F481F1718FC787600F38DCE /* Marcella2.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F481F0518FC77AA00F38DCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F481ED718FC77A900F38DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F481EDE18FC77A900F38DCE;
+			remoteInfo = ValetHUB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F481EDF18FC77A900F38DCE /* ValetHUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValetHUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F481EE218FC77A900F38DCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F481EE418FC77A900F38DCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F481EE618FC77A900F38DCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F481EEA18FC77A900F38DCE /* ValetHUB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ValetHUB-Info.plist"; sourceTree = "<group>"; };
+		5F481EEC18FC77A900F38DCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F481EEE18FC77A900F38DCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F481EF018FC77A900F38DCE /* ValetHUB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ValetHUB-Prefix.pch"; sourceTree = "<group>"; };
+		5F481EF118FC77A900F38DCE /* VHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VHAppDelegate.h; sourceTree = "<group>"; };
+		5F481EF218FC77A900F38DCE /* VHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHAppDelegate.m; sourceTree = "<group>"; };
+		5F481EF518FC77A900F38DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F481EF718FC77A900F38DCE /* VHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VHViewController.h; sourceTree = "<group>"; };
+		5F481EF818FC77A900F38DCE /* VHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHViewController.m; sourceTree = "<group>"; };
+		5F481EFA18FC77AA00F38DCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F481F0018FC77AA00F38DCE /* ValetHUBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValetHUBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F481F0118FC77AA00F38DCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5F481F0918FC77AA00F38DCE /* ValetHUBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ValetHUBTests-Info.plist"; sourceTree = "<group>"; };
+		5F481F0B18FC77AA00F38DCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F481F0D18FC77AA00F38DCE /* ValetHUBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValetHUBTests.m; sourceTree = "<group>"; };
+		5F481F1718FC787600F38DCE /* Marcella2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marcella2.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F481EDC18FC77A900F38DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F481EE518FC77A900F38DCE /* CoreGraphics.framework in Frameworks */,
+				5F481EE718FC77A900F38DCE /* UIKit.framework in Frameworks */,
+				5F481EE318FC77A900F38DCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F481EFD18FC77AA00F38DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F481F0218FC77AA00F38DCE /* XCTest.framework in Frameworks */,
+				5F481F0418FC77AA00F38DCE /* UIKit.framework in Frameworks */,
+				5F481F0318FC77AA00F38DCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F481ED618FC77A900F38DCE = {
+			isa = PBXGroup;
+			children = (
+				5F481EE818FC77A900F38DCE /* ValetHUB */,
+				5F481F0718FC77AA00F38DCE /* ValetHUBTests */,
+				5F481EE118FC77A900F38DCE /* Frameworks */,
+				5F481EE018FC77A900F38DCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F481EE018FC77A900F38DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F481EDF18FC77A900F38DCE /* ValetHUB.app */,
+				5F481F0018FC77AA00F38DCE /* ValetHUBTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F481EE118FC77A900F38DCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F481EE218FC77A900F38DCE /* Foundation.framework */,
+				5F481EE418FC77A900F38DCE /* CoreGraphics.framework */,
+				5F481EE618FC77A900F38DCE /* UIKit.framework */,
+				5F481F0118FC77AA00F38DCE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F481EE818FC77A900F38DCE /* ValetHUB */ = {
+			isa = PBXGroup;
+			children = (
+				5F481EF118FC77A900F38DCE /* VHAppDelegate.h */,
+				5F481EF218FC77A900F38DCE /* VHAppDelegate.m */,
+				5F481EF418FC77A900F38DCE /* Main.storyboard */,
+				5F481EF718FC77A900F38DCE /* VHViewController.h */,
+				5F481EF818FC77A900F38DCE /* VHViewController.m */,
+				5F481EFA18FC77AA00F38DCE /* Images.xcassets */,
+				5F481EE918FC77A900F38DCE /* Supporting Files */,
+			);
+			path = ValetHUB;
+			sourceTree = "<group>";
+		};
+		5F481EE918FC77A900F38DCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F481F1718FC787600F38DCE /* Marcella2.JPG */,
+				5F481EEA18FC77A900F38DCE /* ValetHUB-Info.plist */,
+				5F481EEB18FC77A900F38DCE /* InfoPlist.strings */,
+				5F481EEE18FC77A900F38DCE /* main.m */,
+				5F481EF018FC77A900F38DCE /* ValetHUB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F481F0718FC77AA00F38DCE /* ValetHUBTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F481F0D18FC77AA00F38DCE /* ValetHUBTests.m */,
+				5F481F0818FC77AA00F38DCE /* Supporting Files */,
+			);
+			path = ValetHUBTests;
+			sourceTree = "<group>";
+		};
+		5F481F0818FC77AA00F38DCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F481F0918FC77AA00F38DCE /* ValetHUBTests-Info.plist */,
+				5F481F0A18FC77AA00F38DCE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F481EDE18FC77A900F38DCE /* ValetHUB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F481F1118FC77AA00F38DCE /* Build configuration list for PBXNativeTarget "ValetHUB" */;
+			buildPhases = (
+				5F481EDB18FC77A900F38DCE /* Sources */,
+				5F481EDC18FC77A900F38DCE /* Frameworks */,
+				5F481EDD18FC77A900F38DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValetHUB;
+			productName = ValetHUB;
+			productReference = 5F481EDF18FC77A900F38DCE /* ValetHUB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F481EFF18FC77AA00F38DCE /* ValetHUBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F481F1418FC77AA00F38DCE /* Build configuration list for PBXNativeTarget "ValetHUBTests" */;
+			buildPhases = (
+				5F481EFC18FC77AA00F38DCE /* Sources */,
+				5F481EFD18FC77AA00F38DCE /* Frameworks */,
+				5F481EFE18FC77AA00F38DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F481F0618FC77AA00F38DCE /* PBXTargetDependency */,
+			);
+			name = ValetHUBTests;
+			productName = ValetHUBTests;
+			productReference = 5F481F0018FC77AA00F38DCE /* ValetHUBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F481ED718FC77A900F38DCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Applico;
+				TargetAttributes = {
+					5F481EDE18FC77A900F38DCE = {
+						DevelopmentTeam = 76Q446F2EP;
+					};
+					5F481EFF18FC77AA00F38DCE = {
+						TestTargetID = 5F481EDE18FC77A900F38DCE;
+					};
+				};
+			};
+			buildConfigurationList = 5F481EDA18FC77A900F38DCE /* Build configuration list for PBXProject "ValetHUB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F481ED618FC77A900F38DCE;
+			productRefGroup = 5F481EE018FC77A900F38DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F481EDE18FC77A900F38DCE /* ValetHUB */,
+				5F481EFF18FC77AA00F38DCE /* ValetHUBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F481EDD18FC77A900F38DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F481EFB18FC77AA00F38DCE /* Images.xcassets in Resources */,
+				5F481EED18FC77A900F38DCE /* InfoPlist.strings in Resources */,
+				5F481EF618FC77A900F38DCE /* Main.storyboard in Resources */,
+				5F481F1818FC787600F38DCE /* Marcella2.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F481EFE18FC77AA00F38DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F481F0C18FC77AA00F38DCE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F481EDB18FC77A900F38DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F481EF318FC77A900F38DCE /* VHAppDelegate.m in Sources */,
+				5F481EF918FC77A900F38DCE /* VHViewController.m in Sources */,
+				5F481EEF18FC77A900F38DCE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F481EFC18FC77AA00F38DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F481F0E18FC77AA00F38DCE /* ValetHUBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F481F0618FC77AA00F38DCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F481EDE18FC77A900F38DCE /* ValetHUB */;
+			targetProxy = 5F481F0518FC77AA00F38DCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F481EEB18FC77A900F38DCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F481EEC18FC77A900F38DCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F481EF418FC77A900F38DCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F481EF518FC77A900F38DCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F481F0A18FC77AA00F38DCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F481F0B18FC77AA00F38DCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F481F0F18FC77AA00F38DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5F481F1018FC77AA00F38DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F481F1218FC77AA00F38DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ValetHUB/ValetHUB-Prefix.pch";
+				INFOPLIST_FILE = "ValetHUB/ValetHUB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D14BD39F-DFF7-4F31-A198-3A3172F0C252";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F481F1318FC77AA00F38DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ValetHUB/ValetHUB-Prefix.pch";
+				INFOPLIST_FILE = "ValetHUB/ValetHUB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FCC6973D-A457-4873-A8AE-AF8AE7BCE3D1";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5F481F1518FC77AA00F38DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ValetHUB.app/ValetHUB";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ValetHUB/ValetHUB-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ValetHUBTests/ValetHUBTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5F481F1618FC77AA00F38DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ValetHUB.app/ValetHUB";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ValetHUB/ValetHUB-Prefix.pch";
+				INFOPLIST_FILE = "ValetHUBTests/ValetHUBTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F481EDA18FC77A900F38DCE /* Build configuration list for PBXProject "ValetHUB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F481F0F18FC77AA00F38DCE /* Debug */,
+				5F481F1018FC77AA00F38DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F481F1118FC77AA00F38DCE /* Build configuration list for PBXNativeTarget "ValetHUB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F481F1218FC77AA00F38DCE /* Debug */,
+				5F481F1318FC77AA00F38DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F481F1418FC77AA00F38DCE /* Build configuration list for PBXNativeTarget "ValetHUBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F481F1518FC77AA00F38DCE /* Debug */,
+				5F481F1618FC77AA00F38DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F481ED718FC77A900F38DCE /* Project object */;
+}
