@@ -10,7 +10,9 @@ What's in this package?
 =======================
 My sample app BeaconReceiver.
 
-The source code and binary for BeaconEmitter, tool that allows you to turn your Mac into an iBeacon emitter.
+The source code and binary for BeaconEmitter, tool that allows you to turn your Bluetooth-enabled Mac into an iBeacon emitter.
+
+Arun's valet broadcasting iPad app, ValetHUB.
 
 https://github.com/lgaches/BeaconEmitter
 
@@ -36,17 +38,17 @@ Display setup
 =============
 Pi defaults to HDMI by default.  If you can’t see anything on the screen depending on your connection type, try pressing one of these keys on the keyboard:
 
-1. HDMI mode­ this is the default display mode.
+1. HDMI mode -­ this is the default display mode.
 
-2. HDMI safe mode  select this mode if you are using the HDMI connector and cannot see anything on screen when the Pi has booted.
+2. HDMI safe mode - select this mode if you are using the HDMI connector and cannot see anything on screen when the Pi has booted.
 
-3. Composite PAL mode ­ select either this mode or composite NTSC mode if you are using the composite RCA video connector
+3. Composite PAL mode -­ select either this mode or composite NTSC mode if you are using the composite RCA video connector
 
 4. Composite NTSC mode
 
 Installation
 ============
-Connect an HDMI monitor, ethernet cable, keyboard, mouse, and SD card and power up the device by connecting a USB cable.
+Connect an HDMI monitor, ethernet cable, keyboard, mouse, and SD card, and power up the device by connecting a USB cable.
 
 Wait for “Please wait while NOOBS initializes”
 
@@ -133,7 +135,7 @@ $ sudo make install
 
 6. Configure Bluetooth Dongle
 
-With your Bluetooth dongle plugged in, running the following command will give detail about the device:
+With your Bluetooth dongle plugged in, running the following command will give details about the device:
 
 ```$ hciconfig```
 
@@ -186,7 +188,7 @@ Grab this app and verify your Pi is broadcasting correctly:
 
 https://itunes.apple.com/us/app/ibeacon-locate/id738709014
 
-You can then disable advertising using the following command, and see them stop:
+You can then disable advertising using the following command, and see the device stop emitting:
 
 ```
 $ sudo hciconfig hci0 noleadv
@@ -194,7 +196,7 @@ $ sudo hciconfig hci0 noleadv
 
 Troubleshooting
 ===============
-This guide has a lot of improvments and revisions on the guide Radius guide:
+This guide has a lot of improvments and revisions on the Radius guide:
 
 http://smittytone.wordpress.com/2013/12/02/how-to-build-your-own-apple-ibeacon-with-a-raspberry-pi/
 
