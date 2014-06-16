@@ -1,7 +1,7 @@
 kevin-beacon
 ============
 
-Proof-of-concept fun with iBeacons.
+Proof-of-concept fun with iBeacons. A prototype by Josh Lieberman ([@JALsnipe](https://github.com/JALsnipe)) for [Applico, Inc.](http://www.applicoinc.com/)
 
 Following this guide:
 http://developer.radiusnetworks.com/2013/10/09/how-to-make-an-ibeacon-out-of-a-raspberry-pi.html
@@ -10,11 +10,9 @@ What's in this package?
 =======================
 My sample app BeaconReceiver.
 
-The source code and binary for BeaconEmitter, tool that allows you to turn your Bluetooth-enabled Mac into an iBeacon emitter.
+The source code and binary for [BeaconEmitter](https://github.com/lgaches/BeaconEmitter), a tool that allows you to turn any Bluetooth-enabled Mac into an iBeacon emitter.
 
-Arun's valet broadcasting iPad app, ValetHUB.
-
-https://github.com/lgaches/BeaconEmitter
+Amir's ([@abokhari](https://github.com/abokhari)) valet broadcasting iPad app, ValetHUB.
 
 Installing NOOBS
 ================
